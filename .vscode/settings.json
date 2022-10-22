@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "datatypes": "c",
+        "stdbool.h": "c",
+        "types": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
