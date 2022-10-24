@@ -2,10 +2,10 @@
 
 int main()
 {
-    int v[5] = {1,2,3,4,5};
+    int v[5] = {1,2,3,4,5}; // Allocated space for an array
     
 
-    int *p = v;
+    int *p = v; // Didn't allocate a new array
 
     v[3] = 7;
 
@@ -17,9 +17,9 @@ int main()
     printf("p+2 = %p\n", p+2); // The computer is adding +2(sizeof(int))
 
     printf("v[0] = %i\n", *p);
-    printf("v[0] = %i\n", *(p+1));
-    printf("v[0] = %i\n", *(p+2));
-    printf("v[0] = %i\n", *(p+3));
+    printf("v[1] = %i\n", *(p+1));
+    printf("v[2] = %i\n", *(p+2));
+    printf("v[3] = %i\n", *(p+3));
 
     printf("v[0] = %i\n", v[0]);
     printf("v[1] = %i\n", v[1]);
